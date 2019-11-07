@@ -121,6 +121,7 @@ header {
 
 .segundo-bloque .bloque-izq img {
     width: 56rem;
+    transform: translateY(1rem);
 }
 
 .segundo-bloque .bloque-der {
@@ -487,11 +488,11 @@ header {
     .segundo-bloque {
         display: flex;
         flex-direction: column;
-        padding: 0rem 1rem;
+        padding: 2rem 1rem;
     }
     .segundo-bloque .bloque-izq img {
         width: 28rem;
-        transform: translate(1rem, 1rem);
+        transform: translate(1rem, 2.3rem);
     }
     .segundo-bloque>.bloque-izq {
         order: 2;
