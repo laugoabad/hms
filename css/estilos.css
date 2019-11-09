@@ -127,6 +127,15 @@ header {
     padding-bottom: 2rem;
 }
 
+.cuarto-bloque {
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.cuarto-bloque .titulo-seccion {
+    text-align: center;
+}
+
 .soluciones img {
     display: block;
     margin: auto;
@@ -142,11 +151,6 @@ header {
     padding: 0rem 1.5rem;
 }
 
-.cuarto-bloque {
-    width: 100%;
-    padding: 4rem 2rem;
-}
-
 .quinto-bloque {
     width: 100%;
     padding: 2rem;
@@ -154,10 +158,6 @@ header {
 
 .quinto-bloque .titulo-seccion {
     text-align: left;
-}
-
-.cuarto-bloque .titulo-seccion {
-    text-align: center;
 }
 
 .item-clientes {
@@ -372,11 +372,14 @@ header {
         font-size: 0.9rem;
         margin-left: 1.2rem;
     }
+    .primer-bloque {
+        padding: 9rem 7rem 0 7rem;
+    }
     .primer-bloque .bloque-izq {
-        padding: 2rem 2rem 3rem 7rem;
+        padding: 2rem 2rem 3rem 2rem;
     }
     .primer-bloque .bloque-der img {
-        width: 25rem;
+        width: 20rem;
     }
     .segundo-bloque {
         width: 100%;
@@ -386,6 +389,9 @@ header {
     }
     .segundo-bloque .bloque-der {
         padding: 4rem 0rem 2rem 2rem;
+    }
+    .item-soluciones {
+        padding-bottom: 2rem;
     }
     .medio-circulo-presentacion {
         width: 300px;
@@ -413,8 +419,8 @@ header {
         margin-top: -30rem;
     }
     .texto-mediano {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
     }
     .texto-chico {
         font-size: 0.8rem;
@@ -493,18 +499,13 @@ header {
         width: 5rem;
     }
     .primer-bloque {
-        padding-top: 6rem;
+        padding: 7rem 3rem 0 3rem;
     }
     .primer-bloque .bloque-izq {
-        padding: 1rem 14rem 1rem 14rem;
+        padding-right: 10rem;
     }
     .primer-bloque .bloque-der img {
-        width: 20rem;
-        margin-top: -12rem;
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
-        margin-left: 12rem;
+        width: 18rem;
     }
     .segundo-bloque {
         display: flex;
@@ -585,6 +586,26 @@ header {
     [class*="col-"] {
         width: 100%;
     }
+    .tercer-bloque {
+        width: 100%;
+        padding: 2rem;
+    }
+    .soluciones img {
+        display: block;
+        margin: auto;
+        width: 7rem;
+        height: auto;
+        padding: 1.5rem 1rem;
+    }
+    .item-soluciones {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 0rem 0rem;
+    }
+    .item-clientes {
+        width: 33%
+    }
     .logo-name img {
         width: 4rem;
     }
@@ -596,8 +617,9 @@ header {
     }
     .primer-bloque .bloque-der img {
         width: 15rem;
-        margin-top: -10rem;
-        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .segundo-bloque {
         display: flex;
@@ -627,6 +649,12 @@ header {
     .titulo-seccion {
         font-size: 2rem;
     }
+    .texto-soluciones {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        padding: 0rem 1.4rem;
+    }
+
     .medio-circulo-presentacion {
         width: 300px;
         height: 170px;
