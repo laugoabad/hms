@@ -144,26 +144,7 @@ header {
 
 .cuarto-bloque {
     width: 100%;
-    padding: 4rem;
-}
-
-.cuarto-bloque .titulo-seccion {
-    text-align: center;
-}
-
-.clientes img {
-    display: block;
-    margin: auto;
-    width: 8rem;
-    height: auto;
-    padding: 1.5rem 0rem;
-}
-
-.item-clientes {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 0rem 1.5rem;
+    padding: 4rem 2rem;
 }
 
 .quinto-bloque {
@@ -173,6 +154,25 @@ header {
 
 .quinto-bloque .titulo-seccion {
     text-align: left;
+}
+
+.cuarto-bloque .titulo-seccion {
+    text-align: center;
+}
+
+.item-clientes {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 0rem 1.5rem;
+}
+
+.clientes img {
+    display: block;
+    margin: auto;
+    width: 8rem;
+    height: auto;
+    padding: 1.5rem 0rem;
 }
 
 .clearfix {
@@ -510,7 +510,6 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
     .segundo-bloque .bloque-der {
         padding: 4rem 2rem 2rem 2rem;
@@ -650,7 +649,6 @@ header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        margin-top: -18rem; 
-       
+        margin-top: -18rem;
     }
 }
