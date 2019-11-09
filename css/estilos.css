@@ -13,6 +13,7 @@ body {
     left: 0;
     top: 0;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 .container {
@@ -85,21 +86,21 @@ header {
 
 .primer-bloque {
     width: 100%;
-    padding-top: 8rem;
+    padding: 12rem 15rem 0rem 15rem;
 }
 
 .primer-bloque .bloque-izq {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 4.5rem 7rem 2rem 12rem;
+    padding-right: 5rem;
     float: left;
 }
 
 .primer-bloque .bloque-der img {
-    width: 32rem;
+    width: 22rem;
     height: auto;
-    margin: auto;
+    vertical-align: top;
 }
 
 .segundo-bloque {
@@ -248,8 +249,8 @@ header {
 }
 
 .texto-mediano {
-    font-size: 2.3rem;
-    line-height: 3rem;
+    font-size: 2.1rem;
+    line-height: 2.8rem;
     font-weight: 800;
 }
 
@@ -274,8 +275,8 @@ header {
 .titulo-seccion {
     width: 100%;
     text-align: left;
-    font-weight: 700;
-    font-size: 2.4rem;
+    font-weight: 800;
+    font-size: 2.6rem;
 }
 
 .fondo-verde {
