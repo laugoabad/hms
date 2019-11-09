@@ -13,7 +13,6 @@ body {
     left: 0;
     top: 0;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
 }
 
 .container {
@@ -100,7 +99,7 @@ header {
 .primer-bloque .bloque-der img {
     width: 22rem;
     height: auto;
-    vertical-align: top;
+    margin: auto;
 }
 
 .segundo-bloque {
