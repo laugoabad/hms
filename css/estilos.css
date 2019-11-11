@@ -765,8 +765,8 @@ footer {
         line-height: 2.2rem;
     }
     .texto-chico {
-        font-size: 1.8rem;
-        line-height: 2.5rem;
+        font-size: 1.8em;
+        line-height: 2.rem;
     }
     .texto-soluciones {
         font-size: 1.5rem;
