@@ -187,13 +187,24 @@ header {
 }
 
 .quinto-bloque {
-    text-align: left;
     width: 100%;
-    padding: 4rem 4rem 3rem 4rem;
+    padding: 4rem;
+}
+
+.quinto-bloque .tipo-titulo-seccion {
+    margin-bottom: 2rem;
 }
 
 .quinto-bloque .titulo-seccion {
-    margin-bottom: 1.7rem;
+    width: 50%;
+    transform: translateX(-5rem);
+}
+
+.quinto-bloque .medio-circulo-titulo-seccion-izq {
+    transform: translateX(-6rem);
+}
+.linkedin {
+    margin-top: 1.8rem;
 }
 
 .flexbox {
@@ -204,14 +215,14 @@ header {
 }
 
 .container-form {
-    padding: 0.4rem 1rem;
+    margin-top: 1rem;
 }
 
 .format-form, .format-form-motivo {
-    width: 90%;
+    width: 85%;
     background-color: white;
     padding: 0.8rem 1.2rem;
-    margin: 0.5rem 1.5rem 1rem 1.5rem;
+    margin: 0.6rem 0rem;
     border: 1px solid #D0CDCD;
     border-radius: 10px;
     cursor: pointer;
@@ -229,8 +240,7 @@ input, textarea, #motivo {
 }
 
 .copia {
-    padding: 0.6rem 0 0 1rem;
-    margin: 1rem;
+    width: 10%;
     cursor: pointer;
     font-size: 0.9rem;
     font-weight: 400;
@@ -239,14 +249,13 @@ input, textarea, #motivo {
 
 input[type=checkbox] {
     transform: scale(2);
-    margin-right: 0.6rem;
 }
 
 .submit {
     background-color: #64B0AD;
     padding: 0.6rem 6.5rem;
     text-align: center;
-    margin: 1rem 2.5rem;
+    margin-top: 2rem;
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -398,6 +407,7 @@ footer {
 
 .datos {
     font-size: 1rem;
+    line-height: 1.3rem;
     font-weight: 500;
     padding-bottom: 1.5rem;
 }
@@ -467,7 +477,7 @@ footer {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    transform: translateX(-60px);
+    transform: translateX(-4rem);
 }
 
 .medio-circulo-titulo-seccion-der {
@@ -539,7 +549,6 @@ footer {
         width: 9rem;
         padding: 2rem 0rem;
     }
-
     .cuarto-bloque .titulo-seccion {
         width: 35%;
     }
@@ -547,11 +556,16 @@ footer {
         border: 13px solid #CB2840;
         border-right: 0;
     }
-
     .clientes img {
         width: 9rem;
         height: auto;
         padding: 0.5rem 0rem;
+    }
+    .quinto-bloque .medio-circulo-titulo-seccion-izq {
+        transform: translateX(-4rem);
+    }
+    .quinto-bloque .titulo-seccion {
+        transform: translateX(-3rem);
     }
     .medio-circulo-presentacion {
         width: 300px;
@@ -733,6 +747,19 @@ footer {
         height: auto;
         padding: 0rem;
     }
+
+    .quinto-bloque {
+        padding: 4rem 6rem;
+    }
+    .quinto-bloque .tipo-titulo-seccion {
+        margin-bottom: 5rem;
+    }
+    .quinto-bloque .medio-circulo-titulo-seccion-izq {
+        transform: translateX(3rem);
+    }
+    .quinto-bloque .titulo-seccion {
+        transform: translateX(4rem);
+    }
     .texto-mediano {
         font-size: 1.7rem;
         line-height: 2.2rem;
@@ -747,6 +774,15 @@ footer {
     .titulo-seccion {
         font-size: 2.6rem;
         width: 45%;
+    }
+    .titulo-contacto {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .datos {
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-bottom: 1.5rem;
     }
     .medio-circulo-presentacion {
         width: 380px;
