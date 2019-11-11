@@ -221,27 +221,26 @@
                         </div>
                     </div>
                     <div class="linkedin">
-                        <a href="http://" ><img src="imgs\linkedin-sign.svg" alt=""></a>
+                        <a href="http://"><img src="imgs\linkedin-sign.svg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-7">
                     <div class="container-form flexbox">
-                        <form>
-                            <input class="format-form" type="text" id="nombre" name="nombre"
+                        <form class="row">
+                            <input class="format-form col-12" type="text" id="nombre" name="nombre"
                                 placeholder="Nombre y Apellido">
-                            <input class="format-form" type="email" id="email" name="email" placeholder="E-mail">
-                            <select class="format-form-motivo" id="motivo" name="motivo">
+                            <input class="format-form col-12 " type="email" id="email" name="email" placeholder="E-mail">
+                            <select class="format-form-motivo col-12" id="motivo" name="motivo">
                                 <option value="motivo">Motivo de la consulta</option>
                                 <option value="canada">Canada</option>
                                 <option value="usa">USA</option>
                             </select>
-                            <textarea class="format-form" id="subject" name="subject" placeholder="Consulta"
+                            <textarea class="format-form col-12" id="subject" name="subject" placeholder="Consulta"
                                 style="height:120px">
-                                </textarea>
-                            <input class="copia clear-fix" type="checkbox" name="copia" value="copia"><label
-                                for="checkbox">
-                                Enviarme una
-                                copia</label>
+                            </textarea>
+                            
+                            <label class="col-12"><input class="copia" type="checkbox" name="copia" value="copia">
+                            Enviarme una copia</label>
                             <div class="enviar">
                                 <button class="submit" type="submit" value="Submit">ENVIAR</button>
                             </div>

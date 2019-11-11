@@ -203,6 +203,7 @@ header {
 .quinto-bloque .medio-circulo-titulo-seccion-izq {
     transform: translateX(-6rem);
 }
+
 .linkedin {
     margin-top: 1.8rem;
 }
@@ -240,15 +241,18 @@ input, textarea, #motivo {
 }
 
 .copia {
-    width: 10%;
+    margin: 1.5rem 0.8rem 0 0;
     cursor: pointer;
-    font-size: 0.9rem;
     font-weight: 400;
     color: #2A2A2A;
 }
 
+label {
+    font-size: 0.8rem;
+}
+
 input[type=checkbox] {
-    transform: scale(2);
+    transform: scale(1.7) translateX(0.2rem);
 }
 
 .submit {
@@ -747,7 +751,6 @@ footer {
         height: auto;
         padding: 0rem;
     }
-
     .quinto-bloque {
         padding: 4rem 6rem;
     }
