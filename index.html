@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hms</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 
@@ -126,7 +127,10 @@
                         <img src="imgs\Aca-Salud.png" alt="">
                     </div>
                     <div class="item-clientes col-2">
-                        <img src="imgs\Unión Personal Accord.png" alt="">
+                        <img src="imgs\Unión Personal.png" alt="">
+                    </div>
+                    <div class="item-clientes col-2">
+                        <img src="imgs\Accord.png" alt="">
                     </div>
                     <div class="item-clientes col-2">
                         <img src="imgs\logo-cemic.png" alt="">
@@ -137,11 +141,13 @@
                     <div class="item-clientes col-2">
                         <img src="imgs\consolidarsalud-r.png" alt="">
                     </div>
+                </div>
+
+
+                <div class="row clientes">
                     <div class="item-clientes col-2">
                         <img src="imgs\Medicus.png" alt="">
                     </div>
-                </div>
-                <div class="row clientes">
                     <div class="item-clientes col-2">
                         <img src="imgs\iose.png" alt="">
                     </div>
@@ -157,12 +163,11 @@
                     <div class="item-clientes col-2">
                         <img src="imgs\Sin-título.png" alt="">
                     </div>
+                </div>
+                <div class="row clientes">
                     <div class="item-clientes col-2">
                         <img src="imgs\Unknown.png" alt="">
                     </div>
-                </div>
-                <div class="row clientes">
-
                     <div class="item-clientes col-2">
                         <img src="imgs\images.png" alt="">
                     </div>
@@ -182,27 +187,25 @@
                 </div>
             </section>
 
-            <!-- <section id="contacto" class="row quinto-bloque fondo-amarillo texto-negro">
-                <div class="tipo-titulo-seccion col-4">
-                    
-                    <div class="row titulo-seccion">
+            <section id="contacto" class="row quinto-bloque fondo-amarillo texto-negro">
+                <div class="flexbox col-4">
+                    <div class="titulo-seccion">
                         CONTACTO
                     </div>
-                    <div class="row datos">
+                    <div class="datos">
                         <div class="titulo-contacto">
-                            Oficina Buenos Aires 
-                         </div>   
-                         <div class="texto-contacto">
+                            OFICINA BUENOS AIRES
+                        </div>
+                        <div class="texto-contacto">
                             Reconquista 737 Piso 1º - Of. B <br>
                             Ciudad Autónoma de Buenos Aires<br>
                             C1033ABO República Argentina <br>
-                            Te. +54 11 4311 4112 
-                            
+                            Te. +54 11 4311 4112
                         </div>
                     </div>
-                    <div class="row datos">
+                    <div class=" datos">
                         <div class="titulo-contacto">
-                            Centro de Tecnología Paulina Escardó 
+                            CENTRO DE TECNOLOGÍA
                         </div>
                         <div class="texto-contacto">
                             Paulina Escardó 148 Piso 2 Of 7 <br>
@@ -211,17 +214,64 @@
                             República Argentina <br>
                             Te. +54 280 4457241
                         </div>
-
+                    </div>
+                    <div>
+                        <a href="http://"><img src="imgs\linkedin-sign.svg" alt=""></a>
                     </div>
                 </div>
-
-                <div class="col-8">
-
+                <div class="col-7">
+                    <div class="container-form flexbox">
+                        <form>
+                            <div class="format-form">
+                                <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+                            </div>
+                            <div class="format-form">
+                                <input type="email" id="email" name="email" placeholder="E-mail">
+                            </div>
+                            <div class="format-form-motivo">
+                                <select id="motivo" name="motivo">
+                                    <option value="motivo">Motivo de la consulta</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                            </div>
+                            <div class="format-form">
+                                <textarea id="subject" name="subject" placeholder="Consulta" style="height:100px">
+                                </textarea>
+                            </div>
+                            <div class="copia">
+                                <input type="checkbox" name="copia" value="copia"><label for="checkbox"> Enviarme una
+                                    copia</label>
+                            </div>
+                    </div>
+                    <div class="enviar">
+                        <button class="submit" type="submit" value="Submit">ENVIAR</button>
+                        <a href="#" class="cancelar">Cancelar</a>
+                    </div>
                 </div>
-            </section> -->
-
+                </form>
         </div>
+        </section>
+        <footer>
+            <div class="container-footer">
+                <div class="logo-name">
+                    <a href="#"><img src="imgs/logo.jpg" alt=""></a>
+                </div>
+                <div class="iso">
+                    <div class="texto-verde texto-12">
+                        CERTIFICACIÓN ISO 9001:2015 | POLITICA DE CALIDAD
+                    </div>
+                    <div class="texto-10">
+                        Última actualización: 11/2019 | Versión 1.0 © Copyright 2019 <br> ® Todos los derechos reservados
+                    </div>
+                </div>
+                <div class="container-extra">
+                    &nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </footer>
     </div>
+
     <script src="js\jquery-3.4.1.min.js"></script>
     <script src="js/menu.js"></script>
 </body>

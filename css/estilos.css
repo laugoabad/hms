@@ -85,7 +85,7 @@ header {
 
 .primer-bloque {
     width: 100%;
-    padding: 12rem 15rem 0rem 15rem;
+    padding: 9rem 15rem 0rem 15rem;
 }
 
 .primer-bloque .bloque-izq {
@@ -93,11 +93,12 @@ header {
     align-content: center;
     justify-content: center;
     padding-right: 5rem;
+    padding-top: 5rem;
     float: left;
 }
 
 .primer-bloque .bloque-der img {
-    width: 22rem;
+    width: 30rem;
     height: auto;
     margin: auto;
 }
@@ -107,19 +108,19 @@ header {
 }
 
 .segundo-bloque .bloque-izq img {
-    width: 40rem;
+    width: 38rem;
     height: auto;
     vertical-align: bottom;
     transform: translateX(4rem);
 }
 
 .segundo-bloque .bloque-der {
-    padding: 4rem 0rem 2rem 0rem;
+    padding: 4rem 0rem 3rem 0rem;
 }
 
 .tercer-bloque {
     width: 100%;
-    padding: 5rem;
+    padding: 5rem 4rem;
 }
 
 .tercer-bloque .titulo-seccion {
@@ -127,19 +128,10 @@ header {
     padding-bottom: 2rem;
 }
 
-.cuarto-bloque {
-    width: 100%;
-    padding: 4rem 2rem;
-}
-
-.cuarto-bloque .titulo-seccion {
-    text-align: center;
-}
-
 .soluciones img {
     display: block;
     margin: auto;
-    width: 9rem;
+    width: 11rem;
     height: auto;
     padding: 1.5rem 0rem;
 }
@@ -147,32 +139,126 @@ header {
 .item-soluciones {
     text-align: center;
     margin: auto;
-    width: 50%;
-    padding: 0rem 1.5rem;
+    width: 40%;
+    padding: 0rem 2.5rem;
 }
 
-.quinto-bloque {
+.cuarto-bloque {
     width: 100%;
-    padding: 2rem;
+    padding: 4rem 3rem;
 }
 
-.quinto-bloque .titulo-seccion {
-    text-align: left;
+.cuarto-bloque .titulo-seccion {
+    text-align: center;
 }
 
 .item-clientes {
     text-align: center;
     margin: auto;
     width: 50%;
-    padding: 0rem 1.5rem;
+    padding: 0rem 1rem;
 }
 
 .clientes img {
     display: block;
     margin: auto;
-    width: 8rem;
+    width: 12rem;
     height: auto;
-    padding: 1.5rem 0rem;
+    padding: 0.5rem 0rem;
+}
+
+.quinto-bloque {
+    text-align: left;
+    width: 100%;
+    padding: 4rem;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-form {
+    padding: 0.4rem 1rem;
+}
+
+.format-form, .format-form-motivo {
+    background-color: white;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem 1.5rem 1.2rem 1.5rem;
+    border: 1px solid #D0CDCD;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input, textarea, #motivo {
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2A2A2A;
+}
+
+.format-form-motivo, #motivo {
+    background-color: #D0CDCD;
+}
+
+.copia {
+    padding: 0.6rem 0 0 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #2A2A2A;
+}
+
+input[type=checkbox] {
+    transform: scale(2);
+    margin-right: 0.6rem;
+}
+
+.submit {
+    background-color: #64B0AD;
+    padding: 0.6rem 6.5rem;
+    text-align: center;
+    margin: 1rem 2.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.cancelar {
+    color: #64B0AD;
+    font-size: 1.2rem;
+}
+
+footer {
+    width: 100%;
+    background: white;
+}
+
+.container-footer {
+    width: 100%;
+    margin: auto;
+    padding: 0.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iso {
+    width: 100%;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container-extra {
+    width: 15%;
+    background-color: #E3971D;
+    padding: 0.6rem;
 }
 
 .clearfix {
@@ -250,7 +336,7 @@ header {
 .texto-mediano {
     font-size: 2.1rem;
     line-height: 2.8rem;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .texto-chico {
@@ -260,12 +346,14 @@ header {
 }
 
 .texto-soluciones {
-    font-size: 1.1rem;
-    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    font-weight: 200;
 }
 
 .tipo-titulo-seccion {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,8 +362,21 @@ header {
 .titulo-seccion {
     width: 100%;
     text-align: left;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 2.6rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+}
+
+.titulo-contacto {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.datos {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
 }
 
 .fondo-verde {
@@ -304,6 +405,19 @@ header {
 
 .texto-rojo {
     color: #CB2840;
+}
+
+.texto-verde {
+    color: #64B0AD;
+}
+
+.texto-12 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.texto-10 {
+    font-size: 0.7rem;
 }
 
 .medio-circulo-presentacion {
@@ -358,7 +472,7 @@ header {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: -38rem;
+    margin-top: -35rem;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -385,7 +499,7 @@ header {
         width: 100%;
     }
     .segundo-bloque .bloque-izq img {
-        width: 32rem;
+        width: 30rem;
     }
     .segundo-bloque .bloque-der {
         padding: 4rem 0rem 2rem 2rem;
@@ -416,7 +530,7 @@ header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        margin-top: -30rem;
+        margin-top: -28rem;
     }
     .texto-mediano {
         font-size: 1.8rem;
@@ -436,12 +550,6 @@ header {
 @media(max-width: 769px) {
     [class*="col-"] {
         width: 100%;
-    }
-    .item-soluciones {
-        width: 50%
-    }
-    .item-clientes {
-        width: 33%
     }
     .menu {
         padding: 0rem 2rem;
@@ -499,13 +607,14 @@ header {
         width: 5rem;
     }
     .primer-bloque {
-        padding: 7rem 3rem 0 3rem;
+        padding: 9rem 3rem 0 3rem;
     }
     .primer-bloque .bloque-izq {
-        padding-right: 10rem;
+        padding: 0rem 10rem 0 10rem;
     }
     .primer-bloque .bloque-der img {
         width: 18rem;
+        margin-left: 20%;
     }
     .segundo-bloque {
         display: flex;
@@ -513,7 +622,7 @@ header {
         align-items: center;
     }
     .segundo-bloque .bloque-der {
-        padding: 4rem 2rem 2rem 2rem;
+        padding: 4rem 7rem 2rem 7rem;
     }
     .segundo-bloque>.bloque-izq {
         order: 2;
@@ -525,6 +634,12 @@ header {
         width: 35rem;
         transform: translateX(6rem);
     }
+    .item-soluciones {
+        width: 50%
+    }
+    .item-clientes {
+        width: 33%
+    }
     .tipo-titulo-seccion .titulo-seccion {
         text-align: center;
     }
@@ -533,7 +648,7 @@ header {
         line-height: 2.2rem;
     }
     .texto-chico {
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         line-height: 1.8rem;
     }
     .titulo-seccion {
@@ -567,7 +682,7 @@ header {
         margin-left: 6rem;
     } */
     .medio-circulo-segunda-seccion {
-        width: 360px;
+        width: 280px;
         height: 460px;
         border-top-right-radius: 230px;
         border-bottom-right-radius: 230px;
@@ -576,7 +691,7 @@ header {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
-        margin-left: -7.5rem;
+        margin-top: -32rem;
     }
 }
 
@@ -586,50 +701,33 @@ header {
     [class*="col-"] {
         width: 100%;
     }
-    .tercer-bloque {
-        width: 100%;
-        padding: 2rem;
-    }
-    .soluciones img {
-        display: block;
-        margin: auto;
-        width: 7rem;
-        height: auto;
-        padding: 1.5rem 1rem;
-    }
-    .item-soluciones {
-        text-align: center;
-        margin: auto;
-        width: 50%;
-        padding: 0rem 0rem;
-    }
-    .item-clientes {
-        width: 33%
-    }
     .logo-name img {
         width: 4rem;
     }
     .menu {
-        padding: 0rem 1.5rem;
+        padding: 0rem 1.4rem;
+    }
+    .primer-bloque {
+        padding-top: 7rem;
     }
     .primer-bloque .bloque-izq {
-        padding: 0rem 4rem 1rem 4rem;
+        padding: 0rem 0.5rem 1rem 0.5rem;
     }
     .primer-bloque .bloque-der img {
         width: 15rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-left: 0%;
     }
     .segundo-bloque {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0rem 1rem;
     }
     .segundo-bloque .bloque-izq img {
         width: 20rem;
         transform: translateX(2rem);
+    }
+    .segundo-bloque .bloque-der {
+        padding: 2.5rem 2rem;
     }
     .segundo-bloque>.bloque-izq {
         order: 2;
@@ -637,24 +735,61 @@ header {
     .segundo-bloque .bloque-der {
         order: 1;
     }
+    .tercer-bloque {
+        width: 100%;
+        padding: 2rem;
+    }
+    .tercer-bloque .titulo-seccion {
+        padding-bottom: 0;
+    }
+    .soluciones img {
+        display: block;
+        margin: auto;
+        width: 7rem;
+        height: auto;
+        padding: 0.7rem 1rem;
+    }
+    .item-soluciones {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 0 0 1.4rem 0;
+    }
+    .cuarto-bloque {
+        padding: 2rem 1rem;
+    }
+    .item-clientes {
+        text-align: center;
+        width: 33%;
+        padding: 0rem 0rem;
+    }
+    .clientes img {
+        display: block;
+        width: 6rem;
+        height: auto;
+        padding: 1rem 0rem;
+    }
     .texto-mediano {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
     }
     .texto-chico {
         font-size: 1rem;
         line-height: 1.6rem;
         font-weight: 500;
     }
+
+    .tipo-titulo-seccion{
+        margin: 0 0 0.8rem 0;
+    }
     .titulo-seccion {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .texto-soluciones {
-        font-size: 0.8rem;
-        line-height: 1.3rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
         padding: 0rem 1.4rem;
     }
-
     .medio-circulo-presentacion {
         width: 300px;
         height: 170px;
@@ -668,7 +803,7 @@ header {
         margin: 1rem 0;
     }
     .medio-circulo-segunda-seccion {
-        width: 280px;
+        width: 150px;
         height: 260px;
         border-top-right-radius: 130px;
         border-bottom-right-radius: 130px;
