@@ -170,7 +170,11 @@ header {
 .quinto-bloque {
     text-align: left;
     width: 100%;
-    padding: 4rem;
+    padding: 4rem 4rem 3rem 4rem;
+}
+
+.quinto-bloque .titulo-seccion {
+    margin-bottom: 1.7rem;
 }
 
 .flexbox {
@@ -185,9 +189,10 @@ header {
 }
 
 .format-form, .format-form-motivo {
+    width: 90%;
     background-color: white;
-    padding: 0.6rem 1.2rem;
-    margin: 0.5rem 1.5rem 1.2rem 1.5rem;
+    padding: 0.8rem 1.2rem;
+    margin: 0.5rem 1.5rem 1rem 1.5rem;
     border: 1px solid #D0CDCD;
     border-radius: 10px;
     cursor: pointer;
@@ -362,15 +367,15 @@ footer {
 .titulo-seccion {
     width: 100%;
     text-align: left;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 2.6rem;
     letter-spacing: 0.1rem;
     padding-bottom: 1rem;
 }
 
 .titulo-contacto {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .datos {
@@ -507,6 +512,11 @@ footer {
     .item-soluciones {
         padding-bottom: 2rem;
     }
+    .clientes img {
+        width: 9rem;
+        height: auto;
+        padding: 0.5rem 0rem;
+    }
     .medio-circulo-presentacion {
         width: 300px;
         height: 190px;
@@ -638,7 +648,13 @@ footer {
         width: 50%
     }
     .item-clientes {
-        width: 33%
+        width: 33%;
+        padding: 0.5rem 0rem 0.5rem 0;
+    }
+    .clientes img {
+        width: 12rem;
+        height: auto;
+        padding: 0rem;
     }
     .tipo-titulo-seccion .titulo-seccion {
         text-align: center;
@@ -762,12 +778,20 @@ footer {
         text-align: center;
         width: 33%;
         padding: 0rem 0rem;
+        margin: 0;
+    }
+    .cuarto-bloque .tipo-titulo-seccion {
+        margin: 0.1rem;
     }
     .clientes img {
         display: block;
-        width: 6rem;
+        width: 7rem;
         height: auto;
         padding: 1rem 0rem;
+    }
+
+    .quinto-bloque .titulo-seccion {
+        margin-bottom: 2rem;
     }
     .texto-mediano {
         font-size: 1.5rem;
@@ -778,8 +802,7 @@ footer {
         line-height: 1.6rem;
         font-weight: 500;
     }
-
-    .tipo-titulo-seccion{
+    .tipo-titulo-seccion {
         margin: 0 0 0.8rem 0;
     }
     .titulo-seccion {
