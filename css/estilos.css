@@ -122,6 +122,9 @@ header {
 .segundo-bloque .bloque-der {
     padding: 4rem 0rem 3rem 0rem;
 }
+.segundo-bloque .medio-circulo-titulo-seccion-izq {
+    transform: translateX(-4rem);
+}
 
 .segundo-bloque .titulo-seccion {
     margin-left: -2.4rem;
@@ -792,6 +795,9 @@ footer {
     }
     .segundo-bloque .tipo-titulo-seccion {
         margin-bottom: 2.5rem;
+    }
+    .segundo-bloque .titulo-seccion {
+        width: 35%;
     }
     .segundo-bloque .bloque-der {
         padding: 4rem 4rem 2rem 4rem;
