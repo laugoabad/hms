@@ -854,13 +854,6 @@ footer {
         text-align: center;
         margin-left: 0;
     }
-
-    .iso span {
-        visibility: hidden;
-    }
-    .iso .calidad {
-        transform: translateY(-1rem);
-    }
   
     .frontally {
         width: 100%;
