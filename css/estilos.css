@@ -769,7 +769,7 @@ footer {
         text-align: center;
         padding: 1rem;
         margin-top: 0;
-        color: #64B0AD;
+        color: ;
     }
     .logo-name img {
         width: 5rem;
@@ -938,14 +938,14 @@ footer {
         }
         .tercer-bloque {
             width: 100%;
-            padding: 1rem;
+            padding: 2rem 1rem 1rem 1rem;
         }
         .tercer-bloque .tipo-titulo-seccion {
             margin-bottom: 1.5rem;
         }
         .tercer-bloque .titulo-seccion {
             padding-bottom: 0;
-            width: 60%;
+            width: 70%;
         }
         .soluciones img {
             display: block;
@@ -1036,12 +1036,12 @@ footer {
             line-height: 1.2rem;
             padding: 0rem 1.4rem;
         }
-        .tipo-titulo-seccion {
+        .segundo-bloque .tipo-titulo-seccion {
             margin: 0 0 2rem 0;
         }
         .titulo-seccion {
             font-size: 1.9rem;
-            margin-bottom: 0rem;
+          
         }
         .medio-circulo-presentacion {
             width: 300px;
@@ -1057,25 +1057,25 @@ footer {
         }
         .medio-circulo-titulo-seccion-izq {
             display: inline-block;
-            width: 35px;
-            height: 50px;
-            border-top-left-radius: 25px;
-            border-bottom-left-radius: 25px;
-            border: 12px solid black;
+            width: 26px;
+            height: 44px;
+            border-top-left-radius: 22px;
+            border-bottom-left-radius: 22px;
+            border: 10px solid black;
             border-right: 0;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
             box-sizing: border-box;
             margin-top: 0rem;
-            margin-left: 3rem;
+            margin-left: 1.5rem;
         }
         .medio-circulo-titulo-seccion-der {
             display: inline-block;
-            width: 35px;
-            height: 50px;
-            border-top-right-radius: 25px;
-            border-bottom-right-radius: 25px;
-            border: 13px solid white;
+            width: 26px;
+            height: 44px;
+            border-top-right-radius: 22px;
+            border-bottom-right-radius: 22px;
+            border: 10px solid white;
             border-left: 0;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box;
