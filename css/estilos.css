@@ -318,9 +318,12 @@ footer {
 }
 
 .iso a {
-    padding-right: 0.5rem;
     text-decoration: none;
     color: #64B0AD;
+}
+
+.iso span {
+    padding: 0rem 0.5rem;
 }
 
 .frontally {
