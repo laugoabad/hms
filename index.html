@@ -190,7 +190,7 @@
             </section>
 
             <section id="contacto" class="row quinto-bloque fondo-amarillo texto-negro">
-                <div class="flexbox col-5">
+                <div class="col-5">
                     <div class="row tipo-titulo-seccion">
                         <div class=" medio-circulo-titulo-seccion-izq"></div>
                         <div class="titulo-seccion">
@@ -224,35 +224,44 @@
                         <a href="http://"><img src="imgs\linkedin-sign.svg" alt=""></a>
                     </div>
                 </div>
-                <div class="col-7">
-                    <div class="container-form flexbox">
-                        <form class="row">
-                            <input class="format-form col-12" type="text" id="nombre" name="nombre"
-                                placeholder="Nombre y Apellido">
-                            <input class="format-form col-12 " type="email" id="email" name="email" placeholder="E-mail">
-                            <select class="format-form-motivo col-12" id="motivo" name="motivo">
-                                <option value="motivo">Motivo de la consulta</option>
-                                <option value="canada">Canada</option>
-                                <option value="usa">USA</option>
-                            </select>
-                            <textarea class="format-form col-12" id="subject" name="subject" placeholder="Consulta"
-                                style="height:120px">
+                <div class="col-6">
+                    <div class="container-form">
+                        <div class="container-overlap">
+                            <form class="row">
+                                <input class="format-form col-12" type="text" id="nombre" name="nombre"
+                                    placeholder="Nombre y Apellido">
+                                <input class="format-form col-12 " type="email" id="email" name="email"
+                                    placeholder="E-mail">
+                                <select class="format-form-motivo col-12" id="motivo" name="motivo">
+                                    <option value="motivo">Motivo de la consulta</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="usa">USA</option>
+                                </select>
+                                <textarea class="format-form col-12" id="subject" name="subject" placeholder="Consulta"
+                                    style="height:120px">
                             </textarea>
-                            
-                            <label class="col-12"><input class="copia" type="checkbox" name="copia" value="copia">
-                            Enviarme una copia</label>
-                            <div class="enviar">
-                                <button class="submit" type="submit" value="Submit">ENVIAR</button>
-                            </div>
-                        </form>
+
+                                <label class="col-12"><input class="copia" type="checkbox" name="copia" value="copia">
+                                    Enviarme una copia</label>
+                                <div class="enviar col-12 row">
+                                    <div class="row">
+                                        <button class="submit col-6" type="submit" value="Submit">ENVIAR</button>
+                                        <div class="cancelar col-6">
+                                            <a href="http://">Cancelar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="medio-circulo-quinta-seccion"></div>
+                        </div>
                     </div>
             </section>
             <footer>
-                <div class="container-footer">
-                    <div class="logo-name">
+                <div class="container-footer row">
+                    <div class="logo-name-footer col-2">
                         <a href="#"><img src="imgs/logo.jpg" alt=""></a>
                     </div>
-                    <div class="iso">
+                    <div class="iso col-8">
                         <div class="texto-verde texto-12">
                             CERTIFICACIÓN ISO 9001:2015 | POLITICA DE CALIDAD
                         </div>
@@ -261,13 +270,13 @@
                             reservados
                         </div>
                     </div>
-                    <div class="container-extra">
-                        &nbsp;&nbsp;&nbsp;
+                    <div class="frontally col-2">
+                        <a href="https://www.frontaly.com/" target="_blank" rel="noopener noreferrer"><img
+                                src="imgs\Frontaly-positivo.svg" alt=""></a>
                     </div>
                 </div>
             </footer>
         </div>
-
         <script src="js\jquery-3.4.1.min.js"></script>
         <script src="js/menu.js"></script>
 </body>
