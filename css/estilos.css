@@ -35,6 +35,15 @@ header {
     top: 0px;
 }
 
+.anchor {
+    display: block;
+    height: 4rem;
+    /*same height as header*/
+    margin-top: -4rem;
+    /*same height as header*/
+    visibility: hidden;
+}
+
 .menu {
     width: 100%;
     margin: auto;
@@ -85,11 +94,12 @@ header {
     flex-direction: column;
     height: 100%;
     overflow: hidden;
+    margin-top: 7rem;
 }
 
 .primer-bloque {
     width: 100%;
-    padding: 9rem 15rem 0rem 15rem;
+    padding: 0rem 15rem 0rem 15rem;
 }
 
 .primer-bloque .bloque-izq {
@@ -759,7 +769,7 @@ footer {
         text-align: center;
         padding: 1rem;
         margin-top: 0;
-        color: white;
+        color: #64B0AD;
     }
     .logo-name img {
         width: 5rem;
@@ -994,11 +1004,9 @@ footer {
             margin-left: 1rem;
             text-align: center;
         }
-    
         .logo-name-footer {
             width: 100%;
             text-align: center;
-
         }
         .iso {
             width: 100%;
