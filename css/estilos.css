@@ -94,7 +94,7 @@ header {
     flex-direction: column;
     height: 100%;
     overflow: hidden;
-    margin-top: 7rem;
+    margin-top: 4rem;
 }
 
 .primer-bloque {
@@ -775,7 +775,7 @@ footer {
         width: 5rem;
     }
     .primer-bloque {
-        padding: 9rem 3rem 0 3rem;
+        padding: 4rem 3rem 0 3rem;
     }
     .primer-bloque .bloque-izq {
         padding: 0rem 10rem 0 10rem;
